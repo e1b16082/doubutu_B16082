@@ -1,3 +1,4 @@
+
 class Board {
   BaseArea bArea;
   InfoArea iArea;
@@ -25,3 +26,4 @@ class Board {
     }
   }
 }
+
