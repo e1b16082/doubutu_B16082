@@ -1,5 +1,5 @@
 
-void draw() {
+
 
 abstract class AbstractKoma {
   String name;
@@ -39,10 +39,7 @@ abstract class AbstractKoma {
     rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
   }
 
-  }
-   void drawSelected() {
-    fill(#FF0000, SQUARESIZE);
-    rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
-  }
+  
+  
 
 }
