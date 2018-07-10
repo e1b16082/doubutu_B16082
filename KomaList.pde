@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 AbstractKoma getSelectedKoma() {
     for (AbstractKoma k : komaArray) {
       if (k.kStat.selected) return k;
@@ -17,7 +17,7 @@ AbstractKoma getSelectedKoma() {
     }
     return null;
   }
-=======
+
 class KomaList {
   AbstractKoma[] komaArray = new AbstractKoma[10];
 
@@ -39,4 +39,3 @@ class KomaList {
     }
   }
 }
->>>>>>> e1b16082
